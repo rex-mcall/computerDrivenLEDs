@@ -1,8 +1,8 @@
-### Computer Driven LEDs
+## Computer Driven LEDs
 
 ---
 
-## This code is designed to allow the computer to talk to an Arduino over a USB COM port.
+### This code is designed to allow the computer to talk to an Arduino over a USB COM port.
 
 ---
 
