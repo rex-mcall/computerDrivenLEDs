@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-uartLEDs",
+      "appliesTo": "uartLEDs.c",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-uartLEDs",
+      "appliesTo": "uartLEDs.cpp",
+      "type": "launch"
+    }
+  ]
+}

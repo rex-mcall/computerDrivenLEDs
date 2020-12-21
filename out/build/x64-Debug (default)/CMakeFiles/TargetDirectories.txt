@@ -1,0 +1,3 @@
+D:/Programming/Code/Code Projects/C++/UART_LEDs/out/build/x64-Debug (default)/CMakeFiles/uartLEDs.dir
+D:/Programming/Code/Code Projects/C++/UART_LEDs/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+D:/Programming/Code/Code Projects/C++/UART_LEDs/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir

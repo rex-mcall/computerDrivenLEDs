@@ -4,7 +4,11 @@
 #define NUMPIXELS 3
 Adafruit_NeoPixel strip( NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800 );
 int rgb[3] = { 0,0,0 };
-
+int basicColors[][] = {
+    {255,0,0}
+    {0,255,0}
+    {0,128,0}
+}
 /*
  * String to RGB converter
  * PARAMETERS: 11 character string in this format: "RRR,GGG,BBB"
@@ -22,6 +26,7 @@ void colorWipe(uint32_t color, int wait);
 void setup(){
     Serial.begin( 9600 );
     Serial1.begin( 9600 );
+    //Serial.setTimeout( 4 );
     strip.begin();
     strip.setBrightness( 255 );
     for( int i = 0; i < NUMPIXELS; i++ ) {
@@ -31,7 +36,7 @@ void setup(){
 void loop(){
     delay(10);
     if( Serial.available() ){
-        String bytesIn = Serial.readString();
+        String bytesIn = Serial.readStringUntil('\0');
         Serial1.print(bytesIn); 
         if( bytesIn[0] >= '0' && bytesIn[0] <= '9' ){
             stringToRGB(bytesIn);

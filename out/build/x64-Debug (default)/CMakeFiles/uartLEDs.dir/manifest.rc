@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/Programming/Code/Code Projects/C++/UART_LEDs/out/build/x64-Debug (default)/CMakeFiles/uartLEDs.dir/embed.manifest"
